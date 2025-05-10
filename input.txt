@@ -1,0 +1,14 @@
+Week-4-Assignment-File-handling-and-exception-handling-Kyalibulha-Bwambale-Stephen_modifier.py
+def modify_file(input_file,output_file):
+try: # Read the input file with open(input_file, 'r') as file
+content = file,read()
+# Modify the content: covert to upper case)
+Modified_content = content. upper()
+# Write the modified to the output file with open(output_file,'W') as file:
+file.write(modified_content)
+print(f "modified content wrtten to {output_file}")
+except fileNoFoundError: 
+print(f" file{input_file} not found")
+except Exception as e:
+print (f" An error occurred: {e}")
+print(f"An error occured: {e}")
